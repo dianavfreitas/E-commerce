@@ -74,7 +74,48 @@ nav li{
     cursor: pointer;
 }
 
+.section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 .section2 img{
     height: 500px;
-
 }
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 250px;
+}
+
+.buttons button{
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background: none;
+    color: white;
+}
+
+footer{
+    height: 7rem;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    height: 50px;
+}
+
+

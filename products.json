@@ -1,0 +1,112 @@
+{
+    "image": "images/dress1.jpeg",
+    "title": "Alma Flora Roomper",
+    "description": "Long Sleeve Tiered Pink Floral Romper",
+    "price": "$60.00"
+}
+
+{
+    "image": "images/dress2.jpeg",
+    "title": "Jane Waisted Mini Dress",
+    "description": "Square Neck Long Sleeve Blue Mini Dress",
+    "price": "$50.00",
+}
+
+{
+    "image": "images/dress3.jpeg",
+    "title": "Nichole Floral Dress" ,
+    "description": "Yellow Flower Print Waist Dress",
+    "price": "$35.00",
+}
+
+{
+    "image": "images/dress4.jpeg",
+    "title": "Madalyn Jacquared Dress",
+    "description": "Blue Print with Bows Blue Dress",
+    "price": "$42.00",
+}
+
+{
+    "image":"images/jeans1.jpeg",
+    "title": "Harper Heritage Mom Jeans",
+    "description": "High Rise Destructed Mom Jeans",
+    "price": "$42.00",
+}
+
+{
+    "image": "images/jeans2.jpeg",
+    "title": "Harper Heritage Flare Jeans",
+    "description": "High Rise Distressed Flare Jeans",
+    "price": "$42.00",
+}
+
+{
+    "image": "images/jeans3.jpeg",
+    "title": "Imogene Jeans",
+    "description": "Kick Crop Denim Jeans",
+    "price": "$30.00",
+}
+
+{
+    "image": "images/jeans4.jpeg",
+    "title": "Lisette Lavender Jeans",
+    "description": "Lavender Kick Crop Jeans",
+    "price": "$36.00",
+}
+
+{
+    "image": "images/shirt1.jpeg",
+    "title": "Bernetta Pink Top",
+    "description": "Tiered Multi Color Tank Top",
+    "price": "$32.00",
+}
+
+{
+    "image": "images/shirt2.jpeg",
+    "title": "Lilly Riffle Crop Top",
+    "description": "Sleeveless Tie Back Crop Top",
+    "price": "$28.00",
+}
+
+{
+    "image": "images/shirt3.jpeg",
+    "title": "Emily Sweetheart Top",
+    "description": "Strapless Top",
+    "price": "$23.80",
+}
+
+{
+    "image": "images/shirt4.jpeg",
+    "title": "Jacqueline Ruffle Blouse",
+    "description": "Sleeveless Ruffle Floral Blouse",
+    "price": "$32.20",
+}
+
+{
+    "image": "images/shorts1.jpeg",
+    "title": "Betty Flowy Floral Shorts",
+    "description": "Floral Flowy Mini Shorts",
+    "price": "$32.80",
+}
+
+{
+    "image": "images/shorts2.jpeg",
+    "title": "Ivy Tie Flowy Shorts",
+    "description": "Tie Waist Flowy Shorts",
+    "price": "$28.80",
+}
+
+{
+    "image": "images/skirt1.jpeg",
+    "title": "Alison Ruffle Skirt",
+    "description": "Side Tie Ruffle Mini Skirt",
+    "price": "$33.60",
+}
+
+{
+    "image": "images/skirt2.jpeg",
+    "title": "Tiff Black Mini Skirt",
+    "description": "Black Ruffle Mini Skirt",
+    "price": "$20.00",
+}
+
