@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+};
+
+body{
+    background-color: white;
+}
+
+.logo{
+    height: 7.3rem;
+    margin-left: 150px;
+}
+
+.cart{
+    padding-left: 400px;
+    height: 40px;
+}
+
+nav{
+    height: 10rem;
+    background-color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav li{
+    padding: 30px;
+    font-size: 17px;
+}
+
+.rack{
+    width: 100%;
+}
+
+
+.quote{
+   position: relative;
+   bottom: 500px;
+   text-align: center;
+}
+
+.quote h1{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.quote button{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 70px;
+    width: 200px;
+    background: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.quote button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.section2 img{
+    height: 500px;
+
+}
