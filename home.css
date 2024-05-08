@@ -38,10 +38,10 @@ nav li{
     font-size: 17px;
 }
 
+
 .rack{
     width: 100%;
 }
-
 
 .quote{
    position: relative;
@@ -77,6 +77,9 @@ nav li{
 .section2 {
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+    position: relative;
+    bottom: 100px;
 }
 
 .section2 img{
@@ -107,15 +110,36 @@ nav li{
     color: white;
 }
 
+.john{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    position: relative;
+    bottom: 100px;
+}
+
 footer{
     height: 7rem;
-    background-color: pink;
+    background-color: black;
+}
+
+.icons{
     display: flex;
     justify-content: center;
 }
 
 footer img{
     height: 50px;
+    padding-top: 10px;
+}
+
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 
