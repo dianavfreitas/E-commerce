@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+};
+
+body{
+    background-color: white;
+}
+
+.logo{
+    height: 7.3rem;
+    margin-left: 150px;
+}
+
+.cart{
+    padding-left: 400px;
+    height: 40px;
+}
+
+nav{
+    height: 10rem;
+    background-color: white;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav li{
+    padding: 30px;
+    font-size: 17px;
+}
+
+.ropa{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.images{
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 50px;
+    transition: 0.5s;
+}
+
+.images:hover{
+    transform: scale(0.9);
+}
+
+.desc{
+    font-size: 14px;
+}
+
+.pricing{
+    font-size: 14px;
+}
+
+.descriptions{
+    padding-left: 60px;
+}
+
+footer{
+    height: 6rem;
+    background-color: black;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+
