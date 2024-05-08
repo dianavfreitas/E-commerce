@@ -4,47 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Home</title>
 </head>
 
 
 <body>
-    <nav>
-        <ul> 
-            <li><a href="home.html">Home</a></li>
-            <li><a href="products.html">Clothing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="home.html"><img src="images/logo.png" class="logo"></a></li>
-            <li><img src="images/cart.png" class="cart"></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <ul> 
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Clothing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a href="home.html"><img src="images/logo.png" class="logo"></a>
+            </div>
+            <div class="materialize-container">
+                <i class="material-icons">add_shopping_cart</i>
+                <i class="material-icons">person_outline</i>
+            </div>
+        </nav>
+    </header>
+
+
     <main>
-        <img class="rack" src="images/rack.jpg">
-        <div class="quote">
-        <h1>The Spring Collection</h1>
-        <a href="products.html"><button>Shop Now</button></a>
+        <div class="slider">
+            <img id="slide-1" class="rack" src="images/rack.jpg">
+            <img id="slide-2" src="images/rack2.jpeg">
+            <img id="slide-3" src="images/rack3.jpg">
+            <img id="slide-4" src="images/rack.jpg">
+            <img id="slide-5" src="images/rack2.jpeg">
         </div>
 
-    <div class="section2">
-        <img src="images/shopdresses.jpeg">
+        <div class="quote">
+            <h1>The Spring Collection</h1>
+            <a href="products.html"><button>Shop Now</button></a>
+        </div>
 
-        <img src="images/shoptops.jpeg">
+        <div class="section2">
+            <img src="images/shopdresses.jpeg">
 
-        <img src="images/shopbottoms.jpeg">
+            <img src="images/shoptops.jpeg">
+
+            <img src="images/shopbottoms.jpeg">
         
-        <img src="images/shopjackets.jpeg">
-    </div>
-    <div class="buttons">
+            <img src="images/shopjackets.jpeg">
+        </div>
+        <div class="buttons">
             <a href="products.html"><button>Shop Dresses</button></a>
             <a href="products.html"><button>Shop Tops</button></a>
             <a href="products.html"><button>Shop Bottoms</button></a>
             <a href="products.html"><button>Shop Jackets</button></a>
-    </div>
+        </div>
 
-    <div class="john">
-        <img src="images/john.png">
-    </div>
-
+        <div class="john">
+            <img src="images/john.png">
+        </div>
     </main>
     
     <footer>
@@ -54,6 +72,13 @@
             <a href="https://www.pinterest.com/"><img src="images/pinterest.png"></a>
         </div>
         <h4> © 2024 Sunset || All rights reserved. </h4>
+        <div class="notice">
+            <a href="home.html">Legal & Privacy</a>
+            <a href="home.html">Terms & Service</a>
+            <a href="home.html">Refund Policy</a>
+            <a href="home.html">Cookie Setting</a>
+            <a href="home.html">Cookie Notice</a>
+        </div>
     </footer>
 
 </body>

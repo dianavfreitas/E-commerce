@@ -3,14 +3,67 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
     text-decoration: none;
 };
+
+body{
+    background-color: white;
+}
+
+nav{
+    height: 7.5rem;
+    background-color: white;
+    font-size: 17px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+nav ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+}
+
+nav li{
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    height: 7rem;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    bottom: 60px;
+}
+
+.materialize-container{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 100px;
+}
+
+.material-icons{
+    padding: 0px 50px 0px 50px;
+    position: relative;
+    bottom: 75px;
+}
+
 
 h1{
     text-align: center;
     margin-bottom: 20px;
     font-weight: lighter;
+    color: white;
 }
 
 .container{
@@ -98,4 +151,42 @@ button{
 button:hover{
     background-color: white;
     color: black;
+}
+
+footer{
+    height: 7.5rem;
+    background-color: black;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+footer img{
+    height: 50px;
+    padding-top: 10px;
+}
+
+h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.notice{
+    display: flex;
+    justify-content: space-around;
+}
+
+.notice a{
+    color: white;
+    padding-top: 5px;
+}
+
+.notice a:hover{
+    text-decoration: underline;
 }

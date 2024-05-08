@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="products.css" rel="stylesheet">
     <title>Clothing</title>
 </head>
@@ -10,13 +11,20 @@
 
 <body>
     <nav>
-        <ul> 
-            <li><a href="home.html">Home</a></li>
-            <li><a href="products.html">Clothing</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="home.html"><img src="images/logo.png" class="logo"></a></li>
-            <li><img src="images/cart.png" class="cart"></li>
-        </ul>
+        <div class="nav-container">
+            <ul> 
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Clothing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="home.html"><img src="images/logo.png" class="logo"></a>
+        </div>
+        <div class="materialize-container">
+            <i class="material-icons">add_shopping_cart</i>
+            <i class="material-icons">person_outline</i>
+        </div>
     </nav>
 
 <main> 
@@ -25,14 +33,21 @@
     </div>
 </main>
 
-    <footer>
-        <div class="icons">
-            <a href="https://www.instagram.com/"><img src="images/instagram.png"></a>
-            <a href="https://www.tiktok.com/en/"><img src="images/tik-tok.png"></a>
-            <a href="https://www.pinterest.com/"><img src="images/pinterest.png"></a>
-        </div>
-        <h4> © 2024 Sunset || All rights reserved. </h4>
-    </footer>
+<footer>
+    <div class="icons">
+        <a href="https://www.instagram.com/"><img src="images/instagram.png"></a>
+        <a href="https://www.tiktok.com/en/"><img src="images/tik-tok.png"></a>
+        <a href="https://www.pinterest.com/"><img src="images/pinterest.png"></a>
+    </div>
+    <h4> © 2024 Sunset || All rights reserved. </h4>
+    <div class="notice">
+        <a href="home.html">Legal & Privacy</a>
+        <a href="home.html">Terms & Service</a>
+        <a href="home.html">Refund Policy</a>
+        <a href="home.html">Cookie Setting</a>
+        <a href="home.html">Cookie Notice</a>
+    </div>
+</footer>
 </body>
 
 <script src="products.js"></script>

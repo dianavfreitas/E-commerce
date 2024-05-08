@@ -11,37 +11,59 @@ body{
     background-color: white;
 }
 
-.logo{
-    height: 7.3rem;
-    margin-left: 150px;
-}
-
-.cart{
-    padding-left: 400px;
-    height: 40px;
-}
-
 nav{
-    height: 10rem;
+    height: 7.5rem;
     background-color: white;
+    font-size: 17px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
-
 
 nav ul{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     list-style: none;
 }
 
 nav li{
-    padding: 30px;
-    font-size: 17px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
 }
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+
+.logo{
+    height: 7rem;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    bottom: 60px;
+}
+
+.materialize-container{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 100px;
+}
+
+.material-icons{
+    padding: 0px 50px 0px 50px;
+    position: relative;
+    bottom: 75px;
+}
+
 
 .ropa{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 30px;
 }
 
 .images{
@@ -67,8 +89,22 @@ nav li{
     padding-left: 60px;
 }
 
+.addtocart{
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.addtocart:hover{
+    background-color: black;
+    color: white;
+}
+
 footer{
-    height: 6rem;
+    height: 7.5rem;
     background-color: black;
 }
 
@@ -88,7 +124,21 @@ h4{
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+
+.notice{
+    display: flex;
+    justify-content: space-around;
+}
+
+.notice a{
+    color: white;
+    padding-top: 5px;
+}
+
+.notice a:hover{
+    text-decoration: underline;
 }
 
 

@@ -15,6 +15,7 @@ window.onload = function( ) {
                         <h3>${item.name}</h3>
                         <p class="desc">${item.description}</p>
                         <p class="pricing">${item.price}</p>
+                        <button class="addtocart">Add to cart</button>
                     </div>
                 </div>
             `
