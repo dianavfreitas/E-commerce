@@ -60,6 +60,7 @@ nav li a:hover{
 }
 
 
+
 .ropa{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -71,6 +72,7 @@ nav li a:hover{
     padding-left: 60px;
     padding-top: 50px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .images:hover{
@@ -102,6 +104,35 @@ nav li a:hover{
     background-color: black;
     color: white;
 }
+
+.soon{
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.soon h1{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#CBADFF, #FF85CA, #FF70A0, #FF8547, #FFD35C);
+}
+
+.slider2 .coming-soon{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.slider2 .coming-soon .image{
+    height: 300px;
+}
+
+
 
 footer{
     height: 7.5rem;

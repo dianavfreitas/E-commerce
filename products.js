@@ -31,3 +31,7 @@ window.onload = function( ) {
         console.error("Error fetching data", error);
     });
 }
+
+function filterItems(){
+    let x
+}
