@@ -174,10 +174,157 @@ h4{
     text-decoration: underline;
 }
 
+/* MOBILE */
 @media only screen and (max-width: 767px) {
-    /* Your CSS rules for mobile devices */
+    nav{
+        height: 7.5rem;
+        font-size: 20px;
+        width: 600px;
+      
+    }
+
+.ropa{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.images{
+    height: 600px;
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.pricing{
+    font-size: 20px;
+}
+
+.descriptions{
+    font-size: 20px;
+}
+
+.addtocart{
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    background: none;
+    padding: 5px;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.addtocart:hover{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#CBADFF, #FF85CA, #FF70A0, #FF8547, #FFD35C);
+    width: 600px;
+}
+
+.slider2 .coming-soon{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.slider2 .coming-soon .image{
+    height: 400px;
+}
+
+footer{
+    width: 600px;
+    height: 15rem;
+}
+
+.notice{
+    display: grid;
+}
+
   }
   
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Your CSS rules for tablets */
-  }
+
+  /* TABLET */
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    nav{
+        height: 7.5rem;
+        font-size: 20px;
+        width: 825px;
+    }
+
+    .ropa{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(16, 1fr);
+    }
+
+    .images{
+        height: 800px;
+    }
+
+    .desc{
+        font-size: 25px;
+    
+    }
+
+    .pricing{
+        font-size: 25px;
+    }
+
+    .descriptions{
+        font-size: 30px;
+    }
+
+    .addtocart{
+        border: 1px solid black;
+        border-radius: 3px;
+        color: black;
+        background: none;
+        padding: 5px;
+        cursor: pointer;
+        width: 100px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .addtocart:hover{
+        background-color: black;
+        color: white;
+    }
+
+
+    .container{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(#CBADFF, #FF85CA, #FF70A0, #FF8547, #FFD35C);
+        width: 825px;
+    }
+
+    .slider2 .coming-soon{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .slider2 .coming-soon .image{
+        height: 400px;
+    }
+
+    footer{
+        width: 825px;
+        height: 15rem;
+    }
+
+    .notice{
+        display: grid;
+    }
+}
