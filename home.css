@@ -59,6 +59,9 @@ nav li a:hover{
     bottom: 75px;
 }
 
+.slider img{
+    width: 100%;
+}
 
 .quote{
    position: relative;
